@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('index.desktop.index');
 });
+
+// Route::get('about', [MainController::class,'about']);
+
+// Route::get('m2',[MainController::class,'mobile'])
