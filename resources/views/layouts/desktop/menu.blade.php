@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../css/desktop/menu/style.css">
+<link rel="stylesheet" href="{{ asset('css/desktop/menu/style.css') }}">
 
 <div id="header">
   <script>
@@ -101,7 +101,8 @@
       </li>
     </ul>
   </div>
-  <script src="../js/desktop/usermenu_v1.js?ver=1.38.2"></script>
+  <script src="{{ asset('js/desktop/usermenu_v1.js?ver=1.38.2') }}"></script>
+
   <script>
   $(document).ready(function() {
 
@@ -111,7 +112,7 @@
   <!-- indent_style_remove -->
   <div id="headerLogo" class="layout-wrapper">
     <h1 class="logo">
-      <a href="../desktop/index.php" class="link_main">
+      <a href="/index" class="link_main">
         <span id="gnbLogoContainer"></span>
         <img src="https://res.kurly.com/images/marketkurly/logo/logo_x2.png" alt="마켓컬리 로고" style="display: block;">
       </a>
@@ -453,10 +454,10 @@
                 </li>
               </ul>
             </li>
-            <li class="menu2"><a href="goods_list.php" class="link new "><span class="txt">신상품</span></a></li>
-            <li class="menu3"><a href="goods_list2.php" class="link best "><span class="txt">베스트</span></a></li>
-            <li class="menu4"><a href="goods_list3.php" class="link bargain "><span class="txt">알뜰쇼핑</span></a></li>
-            <li class="lst"><a href="goods_list4.php" class="link event "><span class="txt">특가/혜택</span></a>
+            <li class="menu2"><a href="/new_product" class="link new "><span class="txt">신상품</span></a></li>
+            <li class="menu3"><a href="/best_product" class="link best "><span class="txt">베스트</span></a></li>
+            <li class="menu4"><a href="/thrify_shopping" class="link bargain "><span class="txt">알뜰쇼핑</span></a></li>
+            <li class="lst"><a href="/goods" class="link event "><span class="txt">특가/혜택</span></a>
             </li>
           </ul>
           <div id="side_search" class="gnb_search">
@@ -597,5 +598,7 @@
   });
   </script>
 
-  <script src="../js/desktop/menu/nav.js"></script>
+  <a href="#top" id="scroll_up" class="on" style="opacity: 1; bottom: 15px;" alt="맨 위로가기"></a>
+
+  <script src="{{ asset('js/desktop/menu/nav.js') }} "></script>
 </div>

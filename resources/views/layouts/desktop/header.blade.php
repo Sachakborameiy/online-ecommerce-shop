@@ -24,9 +24,9 @@
 	<script async="" src="{{ asset('js/desktop/cdn.branch.io/branch-latest.min.js') }}"></script>
 	<script type="text/javascript" async="" src="https://www.google-analytics.com/gtm/js?id=GTM-MRW9DRV&amp;cid=1971345031.1629958023"></script>
 	<script type="text/javascript" integrity="sha384-vYYnQ3LPdp/RkQjoKBTGSq0X5F73gXU3G2QopHaIfna0Ct1JRWzwrmEz115NzOta" crossorigin="anonymous" async="" src="{{ asset('js/desktop/cdn.amplitude.com/libs/amplitude-5.8.0-min.gz.js') }}"></script>
-	<script async="" src="{{ asset('js/desktop/www.googletagmanager.com/gtm5445.html?id=GTM-MRW9DRV') }}"></script>
-	<script async="" src="{{ asset('js/desktop/analytics.js') }}"></script>
-	<script src=" {{ asset('css/js/desktop/js.sentry-cdn.com/c1f07ee4a3fd45d5aa2ef4983ca9ad43.min.js') }}" crossorigin="anonymous"></script>
+	<script async="" src="{{ asset('js/desktop/gtm5445.html') }}"></script>
+	<script async="" src="{{ asset('js/analytics.js') }}"></script>
+	<script src=" {{ asset('js/c1f07ee4a3fd45d5aa2ef4983ca9ad43.min.js') }}" crossorigin="anonymous"></script>
 	<script>
 		var environment = 'production';
 
@@ -42,7 +42,7 @@
 		});
 	</script>
 
-	<script src="{{ asset('js/desktop/common.bundlecd3d.js') }} ../"></script>
+	<script src="{{ asset('js/common.bundlecd3d.js') }} ../"></script>
 	<script type="text/javascript" src="{{ asset('js/desktop/res.kurly.com/js/lib/jquery-1.10.2.min.js') }}"></script>
 	<link rel="shortcut icon" href="{{ asset('js/desktop/res.kurly.com/images/marketkurly/logo/favicon_v2.png') }} " type="image/x-icon">
 	<link rel="apple-touch-icon" sizes="57x57" href="{{ asset('js/desktop/res.kurly.com/images/marketkurly/logo/ico_57.png') }}">
@@ -69,33 +69,30 @@
 	<script src="{{ asset('js/desktop/ssl.daumcdn.net/dmaps/map_js_init/postcode.v2.js') }}"></script>
 	<script charset="UTF-8" type="text/javascript" src="//t1.daumcdn.net/postcode/api/core/210803/1627969912456/210803.js"></script>
 	<script src="{{ asset('js/desktop/data/skin/designgj/thefarmerscd3d.js?ver=1.38.2') }}"></script>
-	<script src="{{ asset('js/desktop/data/skin/designgj/commoncd3d.js?ver=1.38.2') }}"></script>
 	<script src="{{ asset('js/desktop/data/skin/designgj/polifycd3d.js?ver=1.38.2') }}"></script>
 	<script src="{{ asset('js/desktop/data/skin/designgj/ui_v2cd3d.js?ver=1.38.2') }}"></script>
 
 	<script src="{{ asset('js/desktop/res.kurly.com/js/vue/xdomain.min.js') }}" slave="https://api.kurly.com/xdomain?ver=1"></script>
 
-	<script src="{{ asset('js/desktop/res.kurly.com/js/vue/es6-promise.min.js') }}"></script>
-	<script src="{{ asset('js/desktop/res.kurly.com/js/vue/es6-promise.auto.min.js') }}"></script>
+	<script src="{{ asset('js/es6-promise.min.js') }}"></script>
+	<script src="{{ asset('js/es6-promise.auto.min.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('js/axios.min.js') }}"></script>
 
-	<script type="text/javascript" src="{{ asset('js/desktop/res.kurly.com/js/vue/axios.min.js') }}"></script>
-
-
-	<script src="{{ asset('js/desktop/res.kurly.com/js/vue/vue.min.js') }}"></script>
-	<script src="{{ asset('js/desktop/axioscd3d.js?ver=1.38.2') }} "></script>
+	<script src="{{ asset('js/vue.min.js') }}"></script>
+	<script src="{{ asset('js/axioscd3d.js') }} "></script>
 	<link rel="styleSheet" href="{{ asset('js/desktop/data/skin/designgj/normalizecd3d.css?ver=1.38.2') }} ">
 	<link rel="styleSheet" href="{{ asset('js/desktop/data/skin/designgj/section1cd3d.css?ver=1.38.2') }}">
-	<link rel="styleSheet" href="{{ asset('js/desktop/data/skin/designgj/commoncd3d.css?ver=1.38.2') }}">
+	{{-- <link rel="styleSheet" href="{{ asset('js/desktop/data/skin/designgj/commoncd3d.css?ver=1.38.2') }}"> --}}
 
 	<link rel="stylesheet" href="{{ asset('css/desktop/normalize.css') }} ">
 	<link rel="stylesheet" href="{{ asset('css/desktop/section1.css') }} ">
 	<link rel="stylesheet" href="{{ asset('css/desktop/common.css') }} ">
 	<link rel="stylesheet" href="{{ asset('css/desktop/custom.css') }} ">
 	<link rel="stylesheet" href="{{ asset('css/desktop/menu.css') }} ">
-	<link rel="stylesheet" href="{{ asset('css/desktop/swiper.min.css') }} ">
+	<link rel="stylesheet" href="{{ asset('css/swiper.min.css') }} ">
+	<link rel="stylesheet" href="{{ asset('css/desktop/menu/scroll.css') }} ">
 
-
-	<script type="text/javascript" src="{{ asset('js/desktop/wcs.naver.net/wcslog.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('js/wcslog.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('js/desktop/lib/js/naverCommonInflowScriptc6b9.js?Path=main/index.php&amp;Referer=http%3A%2F%2Fwww.kurly.com%2Fshop%2Fmain%2Findex.php&amp;AccountID=s_4f41b5625072&amp;Inflow=') }} " id="naver-common-inflow-script"></script>
 	<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2K2GN0FFY0"></script>
 	<script>
@@ -126,7 +123,7 @@
 			a.async = 1;
 			a.src = g;
 			m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', '{{ asset("js/desktop/analytics.js") }} ', 'ga');
+		})(window, document, 'script', '{{ asset("js/analytics.js") }} ', 'ga');
 
 		ga('create', 'UA-90734988-1', 'auto'); //'UA-90734988-1'
 			ga('require', 'GTM-MRW9DRV');
@@ -157,7 +154,7 @@
 				dl = l != 'dataLayer' ? '&l=' + l : '';
 			j.async = true;
 			j.src =
-				'{{ asset("js/desktop/www.googletagmanager.com/gtm5445.html?id=") }} ' + i + dl;
+				'{{ asset("js/desktop/gtm5445.html?id=") }} ' + i + dl;
 			f.parentNode.insertBefore(j, f);
 		})(window, document, 'script', 'dataLayer', 'GTM-MRW9DRV');
 
@@ -326,7 +323,7 @@
 
 
 
-	<script src="{{ asset('js/desktop/kurlytracker/facebookConversionscd3d.js?ver=1.38.2') }}"></script>
+	<script src="{{ asset('js/facebookConversionscd3d.js') }}"></script>
 
 	<script src="{{ asset('js/desktop/useKurly/kurlyAPI.bundle.js') }}"></script>
 	<script src="https://res.kurly.com/js/lib/jquery-1.10.2.min.js"></script>
@@ -338,7 +335,7 @@
 
 <body class="main-index">
 
-<script src="{{ asset('js/desktop/developers.kakao.com/sdk/js/kakao.min.js') }}"></script>
+<script src="{{ asset('js/kakao.min.js') }}"></script>
 
 <div id="wrap" class="">
   <div id="pos_scroll"></div>

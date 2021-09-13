@@ -8,12 +8,14 @@ body {
 }
 
 /* Slideshow container */
+
 .slideshow-container {
   position: relative;
   background: #f1f1f1f1;
 }
 
 /* Slides */
+
 .slideshow-container .mySlides {
   display: none;
   text-align: center;
@@ -25,8 +27,8 @@ body {
 }
 
 /* Next & previous buttons */
-.slideshow-container .prev,
-.slideshow-container .next {
+
+.slideshow-container .prev, .slideshow-container .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -60,13 +62,14 @@ body {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.slideshow-container .prev:hover,
-.slideshow-container .next:hover {
+
+.slideshow-container .prev:hover, .slideshow-container .next:hover {
   background-color: rgb(0 0 0 / 22%);
   color: white;
 }
 
 /* The dot/bullet/indicator container */
+
 .dot-container {
   text-align: center;
   background: #ddd;
@@ -75,6 +78,7 @@ body {
 }
 
 /* The dots/bullets/indicators */
+
 .dot-container .dot {
   cursor: pointer;
   height: 15px;
@@ -87,17 +91,19 @@ body {
 }
 
 /* Add a background color to the active dot/circle */
-.dot-container .active,
-.dot-container .dot:hover {
+
+.dot-container .active, .dot-container .dot:hover {
   background-color: #717171;
 }
 
 /* Add an italic font style to all quotes */
+
 .slideshow-container q {
   font-style: italic;
 }
 
 /* Add a blue color to the author */
+
 .slideshow-container .author {
   color: cornflowerblue;
 }

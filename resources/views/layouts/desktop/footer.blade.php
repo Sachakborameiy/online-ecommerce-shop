@@ -1,190 +1,201 @@
-  <!-- Mirrored from www.kurly.com/shop/main/index.php? by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Aug 2021 06:09:20 GMT -->
+<!-- Mirrored from www.kurly.com/shop/main/index.php? by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Aug 2021 06:09:20 GMT -->
 
-  <div id="layerDSR">
+<div id="layerDSR">
     <div class="bg_dim"></div>
     <div class="in_layer">
-      <div class="inner_layer layer_star">
-        <strong class="dsr_result">샛별배송 지역입니다.</strong>
-        <div class="ani">
-          <img data-src="https://res.kurly.com/mobile/img/1908/img_delivery_kurly.png"
-            src="https://res.kurly.com/mobile/service/common/bg_1x1.png" alt="샛별배송 이미지">
+        <div class="inner_layer layer_star">
+            <strong class="dsr_result">샛별배송 지역입니다.</strong>
+            <div class="ani">
+                <img data-src="https://res.kurly.com/mobile/img/1908/img_delivery_kurly.png"
+                    src="https://res.kurly.com/mobile/service/common/bg_1x1.png" alt="샛별배송 이미지">
+            </div>
+            <p class="dsr_desc default_cutoff_23_7">
+                <strong class="emph">오늘 밤 11시 전</strong>까지 주문시<br>
+                <strong class="emph">다음날 아침 7시</strong> 이전 도착합니다!
+            </p>
+            <p class="dsr_desc early_cutoff_20_8">
+                <strong class="emph">오늘 밤 8시 전</strong>까지 주문시<br>
+                <strong class="emph">다음날 아침 8시</strong> 이전 도착합니다!
+            </p>
         </div>
-        <p class="dsr_desc default_cutoff_23_7">
-          <strong class="emph">오늘 밤 11시 전</strong>까지 주문시<br>
-          <strong class="emph">다음날 아침 7시</strong> 이전 도착합니다!
-        </p>
-        <p class="dsr_desc early_cutoff_20_8">
-          <strong class="emph">오늘 밤 8시 전</strong>까지 주문시<br>
-          <strong class="emph">다음날 아침 8시</strong> 이전 도착합니다!
-        </p>
-      </div>
-      <div class="inner_layer layer_normal">
-        <strong class="dsr_result">택배배송 지역입니다.</strong>
-        <div class="ani">
-          <img data-src="https://res.kurly.com/mobile/img/1908/img_delivery_car.png"
-            src="https://res.kurly.com/mobile/service/common/bg_1x1.png" alt="택배배송 이미지">
+        <div class="inner_layer layer_normal">
+            <strong class="dsr_result">택배배송 지역입니다.</strong>
+            <div class="ani">
+                <img data-src="https://res.kurly.com/mobile/img/1908/img_delivery_car.png"
+                    src="https://res.kurly.com/mobile/service/common/bg_1x1.png" alt="택배배송 이미지">
+            </div>
+            <p class="dsr_desc">
+                <strong class="emph">밤 8시 전</strong>까지 주문시<br>
+                <strong class="emph">다음날</strong> 도착합니다!
+            </p>
+            <p class="dsr_notice">일요일은 배송 휴무로 토요일에는 주문 불가</p>
         </div>
-        <p class="dsr_desc">
-          <strong class="emph">밤 8시 전</strong>까지 주문시<br>
-          <strong class="emph">다음날</strong> 도착합니다!
-        </p>
-        <p class="dsr_notice">일요일은 배송 휴무로 토요일에는 주문 불가</p>
-      </div>
-      <div class="inner_layer layer_none">
-        <strong class="dsr_result">배송 불가 지역입니다.</strong>
-        <div class="ani">
-          <img data-src="https://res.kurly.com/mobile/img/1908/img_delivery_none.png"
-            src="https://res.kurly.com/mobile/service/common/bg_1x1.png" alt="배송불가 이미지">
+        <div class="inner_layer layer_none">
+            <strong class="dsr_result">배송 불가 지역입니다.</strong>
+            <div class="ani">
+                <img data-src="https://res.kurly.com/mobile/img/1908/img_delivery_none.png"
+                    src="https://res.kurly.com/mobile/service/common/bg_1x1.png" alt="배송불가 이미지">
+            </div>
+            <p class="dsr_desc">
+                <strong class="emph">도로명 주소</strong>로 검색하셨다면,<br>
+                <strong class="emph">지번 주소(구 주소)</strong>로 다시 시도해 주세요.
+            </p>
+            <p class="dsr_notice">배송지역을 확장하도록 노력하겠습니다!</p>
         </div>
-        <p class="dsr_desc">
-          <strong class="emph">도로명 주소</strong>로 검색하셨다면,<br>
-          <strong class="emph">지번 주소(구 주소)</strong>로 다시 시도해 주세요.
-        </p>
-        <p class="dsr_notice">배송지역을 확장하도록 노력하겠습니다!</p>
-      </div>
-      <div class="layer_btn1">
-        <button type="button" class="btn_close"
-          onclick="$('#layerDSR').hide();$(this).parent().find('.inner_layer').hide();">확인</button>
-      </div>
-      <button type="button" class="layer_close"
-        onclick="$('#layerDSR').hide();$(this).parent().find('.inner_layer').hide();"></button>
+        <div class="layer_btn1">
+            <button type="button" class="btn_close"
+                onclick="$('#layerDSR').hide();$(this).parent().find('.inner_layer').hide();">확인</button>
+        </div>
+        <button type="button" class="layer_close"
+            onclick="$('#layerDSR').hide();$(this).parent().find('.inner_layer').hide();"></button>
     </div>
-  </div>
+</div>
 
-  <div id="footer" style="opacity: 1;">
+<div id="footer" style="opacity: 1;">
     <div class="inner_footer">
-      <div class="footer_cc">
-        <h2 class="tit_cc">고객행복센터</h2>
-        <div class="cc_view cc_call">
-          <h3><span class="tit">1644-1107</span></h3>
-          <dl class="list">
-            <dt>365고객센터</dt>
-            <dd>오전 7시 - 오후 7시</dd>
-          </dl>
+        <div class="footer_cc">
+            <h2 class="tit_cc">고객행복센터</h2>
+            <div class="cc_view cc_call">
+                <h3><span class="tit">1644-1107</span></h3>
+                <dl class="list">
+                    <dt>365고객센터</dt>
+                    <dd>오전 7시 - 오후 7시</dd>
+                </dl>
+            </div>
+            <div class="cc_view cc_kakao">
+                <h3><a class="tit" href="#none">카카오톡 문의</a></h3>
+                <script type="text/javascript">
+                    $('.cc_kakao .tit').on('click', function(e) {
+                        e.preventDefault();
+                        KurlyTracker.setAction('select_bottom_kakao_button').sendData();
+                        $.ajax({
+                            type: "GET",
+                            url: apiDomain + '/v1/mypage/asks/confirm/kakao',
+                            dataType: 'json',
+                            success: function(data) {
+                                if (data.data.ok_button_action_url.indexOf('https://api.happytalk.io/') > -1) {
+                                    if (confirm('[' + data.data.title + '] ' + data.data.message)) window.open(data
+                                        .data
+                                        .ok_button_action_url, '_blank');
+                                } else {
+                                    alert(data.data.title + '\n' + data.data.message);
+                                }
+                            }
+                        })
+                    });
+                </script>
+                <dl class="list">
+                    <dt>365고객센터</dt>
+                    <dd>오전 7시 - 오후 7시</dd>
+                </dl>
+            </div>
+            <div class="cc_view cc_qna">
+                <h3><a href="#none"
+                        onclick="KurlyTrackerLink('/shop/mypage/mypage_qna_register.php?mode=add_qna', 'select_bottom_onebyone_button')"
+                        class="tit">1:1 문의</a></h3>
+                <dl class="list">
+                    <dt>24시간 접수 가능</dt>
+                    <dd>고객센터 운영시간에 순차적으로 답변해드리겠습니다.</dd>
+                </dl>
+            </div>
         </div>
-        <div class="cc_view cc_kakao">
-          <h3><a class="tit" href="#none">카카오톡 문의</a></h3>
-          <script type="text/javascript">
-          $('.cc_kakao .tit').on('click', function(e) {
-            e.preventDefault();
-            KurlyTracker.setAction('select_bottom_kakao_button').sendData();
-            $.ajax({
-              type: "GET",
-              url: apiDomain + '/v1/mypage/asks/confirm/kakao',
-              dataType: 'json',
-              success: function(data) {
-                if (data.data.ok_button_action_url.indexOf('https://api.happytalk.io/') > -1) {
-                  if (confirm('[' + data.data.title + '] ' + data.data.message)) window.open(data.data
-                    .ok_button_action_url, '_blank');
-                } else {
-                  alert(data.data.title + '\n' + data.data.message);
-                }
-              }
-            })
-          });
-          </script>
-          <dl class="list">
-            <dt>365고객센터</dt>
-            <dd>오전 7시 - 오후 7시</dd>
-          </dl>
+        <div class="company">
+            <ul class="list">
+                <li><a class="link" href="/shop/introduce/about_kurly.php">컬리소개</a></li>
+                <li><a class="link"
+                        href="https://www.youtube.com/embed/WEep7BcboMQ?rel=0&amp;showinfo=0&amp;wmode=opaque&amp;enablejsapi=1"
+                        onclick="window.open(this.href, 'pop', 'width=1330,height=660,scrollbars=yes');return false;">컬리소개영상</a>
+                </li>
+                <li><a class="link" href="https://marketkurly.recruiter.co.kr/appsite/company/index"
+                        target="_blank">인재채용</a>
+                </li>
+                <li><a class="link" href="/shop/service/agreement.php">이용약관</a></li>
+                <li><a class="link emph" href="/shop/service/private.php">개인정보처리방침</a></li>
+                <li><a class="link" href="/shop/service/guide.php">이용안내</a></li>
+            </ul>
+            법인명 (상호) : 주식회사 컬리 <span class="bar">I</span> 사업자등록번호 : 261-81-23567 <a
+                href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2618123567&amp;apv_perm_no=" target="_blank"
+                class="link">사업자정보 확인</a>
+            <br>
+            통신판매업 : 제 2018-서울강남-01646 호 <span class="bar">I</span> 개인정보보호책임자 : 이원준
+            <br>
+            주소 : 서울특별시 강남구 테헤란로 133, 18층(역삼동) <span class="bar">I</span> 대표이사 : 김슬아
+            <br>
+            입점문의 : <a href="https://forms.gle/oKMAe1SaicqMX3SC9" target="_blank" class="link">입점문의하기</a> <span
+                class="bar">I</span> 제휴문의 : <a href="mailto:business@kurlycorp.com"
+                class="link">business@kurlycorp.com</a>
+            <br>
+            채용문의 : <a href="mailto:recruit@kurlycorp.com" class="link">recruit@kurlycorp.com</a>
+            <br>
+            팩스: 070 - 7500 - 6098 <span class="bar">I</span> 이메일 : <a href="mailto:help@kurlycorp.com"
+                class="link">help@kurlycorp.com</a>
+            <em class="copy">© KURLY CORP. ALL RIGHTS RESERVED</em>
+            <ul class="list_sns">
+                <li>
+                    <a href="https://instagram.com/marketkurly" class="link_sns" target="_blank"><img
+                            src="https://res.kurly.com/pc/ico/1810/ico_instagram.png" alt="마켓컬리 인스타그램 바로가기"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/marketkurly" class="link_sns" target="_blank"><img
+                            src="https://res.kurly.com/pc/ico/1810/ico_fb.png" alt="마켓컬리 페이스북 바로가기"></a>
+                </li>
+                <li>
+                    <a href="http://blog.naver.com/marketkurly" class="link_sns" target="_blank"><img
+                            src="https://res.kurly.com/pc/ico/1810/ico_blog.png" alt="마켓컬리 네이버블로그 바로가기"></a>
+                </li>
+                <li>
+                    <a href="https://m.post.naver.com/marketkurly" class="link_sns" target="_blank"><img
+                            src="https://res.kurly.com/pc/ico/1810/ico_naverpost.png" alt="마켓컬리 유튜브 바로가기"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCfpdjL5pl-1qKT7Xp4UQzQg" class="link_sns lst"
+                        target="_blank"><img src="https://res.kurly.com/pc/ico/1810/ico_youtube.png"
+                            alt="마켓컬리 유튜브 바로가기"></a>
+                </li>
+            </ul>
         </div>
-        <div class="cc_view cc_qna">
-          <h3><a href="#none"
-              onclick="KurlyTrackerLink('/shop/mypage/mypage_qna_register.php?mode=add_qna', 'select_bottom_onebyone_button')"
-              class="tit">1:1 문의</a></h3>
-          <dl class="list">
-            <dt>24시간 접수 가능</dt>
-            <dd>고객센터 운영시간에 순차적으로 답변해드리겠습니다.</dd>
-          </dl>
-        </div>
-      </div>
-      <div class="company">
-        <ul class="list">
-          <li><a class="link" href="/shop/introduce/about_kurly.php">컬리소개</a></li>
-          <li><a class="link"
-              href="https://www.youtube.com/embed/WEep7BcboMQ?rel=0&amp;showinfo=0&amp;wmode=opaque&amp;enablejsapi=1"
-              onclick="window.open(this.href, 'pop', 'width=1330,height=660,scrollbars=yes');return false;">컬리소개영상</a>
-          </li>
-          <li><a class="link" href="https://marketkurly.recruiter.co.kr/appsite/company/index" target="_blank">인재채용</a>
-          </li>
-          <li><a class="link" href="/shop/service/agreement.php">이용약관</a></li>
-          <li><a class="link emph" href="/shop/service/private.php">개인정보처리방침</a></li>
-          <li><a class="link" href="/shop/service/guide.php">이용안내</a></li>
-        </ul>
-        법인명 (상호) : 주식회사 컬리 <span class="bar">I</span> 사업자등록번호 : 261-81-23567 <a
-          href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2618123567&amp;apv_perm_no=" target="_blank"
-          class="link">사업자정보 확인</a>
-        <br>
-        통신판매업 : 제 2018-서울강남-01646 호 <span class="bar">I</span> 개인정보보호책임자 : 이원준
-        <br>
-        주소 : 서울특별시 강남구 테헤란로 133, 18층(역삼동) <span class="bar">I</span> 대표이사 : 김슬아
-        <br>
-        입점문의 : <a href="https://forms.gle/oKMAe1SaicqMX3SC9" target="_blank" class="link">입점문의하기</a> <span
-          class="bar">I</span> 제휴문의 : <a href="mailto:business@kurlycorp.com" class="link">business@kurlycorp.com</a>
-        <br>
-        채용문의 : <a href="mailto:recruit@kurlycorp.com" class="link">recruit@kurlycorp.com</a>
-        <br>
-        팩스: 070 - 7500 - 6098 <span class="bar">I</span> 이메일 : <a href="mailto:help@kurlycorp.com"
-          class="link">help@kurlycorp.com</a>
-        <em class="copy">© KURLY CORP. ALL RIGHTS RESERVED</em>
-        <ul class="list_sns">
-          <li>
-            <a href="https://instagram.com/marketkurly" class="link_sns" target="_blank"><img
-                src="https://res.kurly.com/pc/ico/1810/ico_instagram.png" alt="마켓컬리 인스타그램 바로가기"></a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/marketkurly" class="link_sns" target="_blank"><img
-                src="https://res.kurly.com/pc/ico/1810/ico_fb.png" alt="마켓컬리 페이스북 바로가기"></a>
-          </li>
-          <li>
-            <a href="http://blog.naver.com/marketkurly" class="link_sns" target="_blank"><img
-                src="https://res.kurly.com/pc/ico/1810/ico_blog.png" alt="마켓컬리 네이버블로그 바로가기"></a>
-          </li>
-          <li>
-            <a href="https://m.post.naver.com/marketkurly" class="link_sns" target="_blank"><img
-                src="https://res.kurly.com/pc/ico/1810/ico_naverpost.png" alt="마켓컬리 유튜브 바로가기"></a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/channel/UCfpdjL5pl-1qKT7Xp4UQzQg" class="link_sns lst" target="_blank"><img
-                src="https://res.kurly.com/pc/ico/1810/ico_youtube.png" alt="마켓컬리 유튜브 바로가기"></a>
-          </li>
-        </ul>
-      </div>
     </div>
     <div class="footer_link">
-      <div class="authentication">
-        <a href="#none" onclick="popup('https://res.kurly.com/pc/img/1909/img_isms.jpg',550,700);return false;"
-          class="mark" target="_blank">
-          <img src="https://res.kurly.com/pc/ico/2001/logo_isms.png" alt="isms 로고" class="logo">
-          <p class="txt">
-            [인증범위] 마켓컬리 쇼핑몰 서비스 개발 · 운영<br>
-            [유효기간] 2019.04.01 ~ 2022.03.31
-          </p>
-        </a>
-        <a href="#none"
-          onclick="popup('https://www.eprivacy.or.kr/front/certifiedSiteMark/certifiedSiteMarkPopup.do?certCmd=EP&amp;certNum=2021-EP-R003',527,720);return false;"
-          class="mark" target="_blank">
-          <img src="https://res.kurly.com/pc/ico/2001/logo_eprivacyplus.png" alt="eprivacy plus 로고" class="logo">
-          <p class="txt">
-            개인정보보호 우수 웹사이트 ·<br>
-            개인정보처리시스템 인증 (ePRIVACY PLUS)
-          </p>
-        </a>
-        <a href="#none"
-          onclick="popup('http://pgweb.uplus.co.kr/ms/escrow/s_escrowYn.do?mertid=go_thefarmers',460,550);return false;"
-          class="mark lguplus" target="_blank">
-          <img src="https://res.kurly.com/pc/service/main/2009/logo_payments.png" alt="payments 로고" class="logo">
-          <p class="txt">
-            고객님의 안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한<br>
-            토스 페이먼츠 구매안전(에스크로) 서비스를 이용하실 수 있습니다.
-          </p>
-        </a>
-      </div>
+        <div class="authentication">
+            <a href="#none" onclick="popup('https://res.kurly.com/pc/img/1909/img_isms.jpg',550,700);return false;"
+                class="mark" target="_blank">
+                <img src="https://res.kurly.com/pc/ico/2001/logo_isms.png" alt="isms 로고" class="logo">
+                <p class="txt">
+                    [인증범위] 마켓컬리 쇼핑몰 서비스 개발 · 운영<br>
+                    [유효기간] 2019.04.01 ~ 2022.03.31
+                </p>
+            </a>
+            <a href="#none"
+                onclick="popup('https://www.eprivacy.or.kr/front/certifiedSiteMark/certifiedSiteMarkPopup.do?certCmd=EP&amp;certNum=2021-EP-R003',527,720);return false;"
+                class="mark" target="_blank">
+                <img src="https://res.kurly.com/pc/ico/2001/logo_eprivacyplus.png" alt="eprivacy plus 로고"
+                    class="logo">
+                <p class="txt">
+                    개인정보보호 우수 웹사이트 ·<br>
+                    개인정보처리시스템 인증 (ePRIVACY PLUS)
+                </p>
+            </a>
+            <a href="#none"
+                onclick="popup('http://pgweb.uplus.co.kr/ms/escrow/s_escrowYn.do?mertid=go_thefarmers',460,550);return false;"
+                class="mark lguplus" target="_blank">
+                <img src="https://res.kurly.com/pc/service/main/2009/logo_payments.png" alt="payments 로고"
+                    class="logo">
+                <p class="txt">
+                    고객님의 안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한<br>
+                    토스 페이먼츠 구매안전(에스크로) 서비스를 이용하실 수 있습니다.
+                </p>
+            </a>
+        </div>
     </div>
-  </div>
+</div>
 
 </div>
 </div>
+
+<a href="#top" id="scroll_up" class="on" style="opacity: 1; bottom: 15px;" alt="맨 위로가기"></a>
+
+<script src="{{ asset('js/desktop/menu/nav.js') }} "></script>
 
 </body>
+
 </html>

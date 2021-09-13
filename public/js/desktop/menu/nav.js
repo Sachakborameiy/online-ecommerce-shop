@@ -13,4 +13,20 @@ $(function () {
       $(this).addClass("active");
     }
   });
+
+  let scroll_up = $('#scroll_up');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      scroll_up.addClass('show');
+    } else {
+      scroll_up.removeClass('show');
+    }
+  });
+
+  scroll_up.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+
 });
